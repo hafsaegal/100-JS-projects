@@ -12,4 +12,9 @@ const updateTimer= () => {
 
     timer.innerHTML = `${minutes}:${seconds}`;
     
+
+}
+
+const startTimer= () => {
+    interval = setInterval(() =>{}, 1000)
 }
